@@ -1,16 +1,13 @@
 /* styles go here */
 .form-field {
   display: block;
+  margin-bottom: 10px;
 }
 
 .fieldset {
   margin-bottom: 20px;
 }
 
-label {
-  margin-bottom: 10px;
-}
-
-.fieldset > label:last-of-type {
+.fieldset > .form-field:last-of-type {
   margin-bottom: 0;
 }
